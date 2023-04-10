@@ -1,6 +1,6 @@
 package boardgame;
 
-public class Piece {
+public class  Piece {
     protected Position position; //matrix position
     private Board board;
 
