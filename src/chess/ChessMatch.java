@@ -29,7 +29,8 @@ public class ChessMatch {
     }
     private void inicialSetup(){
         placeNewPiece('b', 6, new Rook(board, Color.WHITE));
-        placeNewPiece('h', 6, new Rook(board, Color.WHITE));
+        placeNewPiece('h', 6, new Rook(board, Color.BLACK));
         placeNewPiece('d', 1, new King(board, Color.WHITE));
+        placeNewPiece('h', 1, new King(board, Color.BLACK));
     }
 }
